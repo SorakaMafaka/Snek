@@ -21,7 +21,7 @@ namespace Snek
 
             new Global();
 
-            gameTimer.Interval = 1000 / Global.Speed;
+            gameTimer.Interval = 1500 / Global.Speed;
             gameTimer.Tick += UpdateScreen;
             gameTimer.Start();
 
@@ -215,6 +215,11 @@ namespace Snek
         }
 
         private void lblGameOver_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gameCanvas_Click(object sender, EventArgs e)
         {
 
         }
